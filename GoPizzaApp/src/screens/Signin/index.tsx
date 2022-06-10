@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from  "..//../components/Input/Button"
 import {Input} from "..//../components/Input";
 
 import { Container } from "./styles";
@@ -18,6 +19,11 @@ export function SignIn() {
         placeholder="Senha"
         type="secondary"
         secureTextEntry
+      />
+      
+      <Button
+        title= "Entrar"
+        type="primary"
       />
       
     </Container>
